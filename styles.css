@@ -12,12 +12,13 @@ img {
   animation: show;
   animation-fill-mode: both;
   animation-range: entry 25% cover 25%;
-  animation-timeline: --reveal;
+  /* animation-timeline: --reveal; */
+  animation-timeline: view();
   border-radius: 16px;
   height: 250px;
   object-fit: cover;
 
-  view-timeline-name: --reveal;
+  /* view-timeline-name: --reveal; */
   width: 250px;
 }
 
